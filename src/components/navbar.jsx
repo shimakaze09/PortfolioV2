@@ -5,13 +5,7 @@ import Image from "next/image";
 import { useState } from "react";
 import NavLink from "./navLink";
 import { motion } from "framer-motion";
-
-const links = [
-  { url: "/", title: "Home" },
-  { url: "/about", title: "About" },
-  { url: "/portfolio", title: "Portfolio" },
-  { url: "/contact", title: "Contact" }
-]
+import { links } from "@/libs/data";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false)
@@ -121,11 +115,12 @@ const Navbar = () => {
         {/* MENU LIST */}
         {open && (
           <motion.div variants={listVariants} initial="closed" animate="opened" className="absolute top-0 left-0 w-screen h-screen bg-black text-white flex flex-col items-center justify-center gap-8 text-4xl z-40">
-            {links.map(link => (
-              <motion.div variants={listItemVariants} className="" key={link.title}>
-                <Link href={link.url}>{link.title}</Link>
-              </motion.div>
-            ))}
+            {
+              links.map(link => (
+                <motion.div variants={listItemVariants} className="" key={link.title}>
+                  <Link href={link.url}>{link.title}</Link>
+                </motion.div>
+              ))}
           </motion.div>
         )}
       </div>
