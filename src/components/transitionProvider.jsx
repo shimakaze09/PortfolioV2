@@ -2,7 +2,7 @@
 
 import { AnimatePresence } from "framer-motion"
 import { motion } from "framer-motion";
-import Navbar from "./Navbar";
+import Navbar from "./navbar";
 import { usePathname } from "next/navigation";
 import { links } from "@/libs/data";
 
