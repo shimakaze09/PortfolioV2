@@ -13,7 +13,7 @@ const projectsData = [
     title: "Tactics RPG",
     description:
       "This is a Tactics RPG game demo that I've developed using Unity. This project marks my first foray into creating a game demo, and it's a testament to my ongoing learning journey in game development.",
-    image: "/tacticsRPG.gif",
+    image: "/TacticsRPG.gif",
     link: "https://github.com/shimakaze09/TacticsRPG"
   },
   {
