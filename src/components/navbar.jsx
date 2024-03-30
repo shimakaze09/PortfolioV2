@@ -83,8 +83,7 @@ const Navbar = () => {
           </span>
         </Link>
       </div>
-      {/* SOCIALS */}
-      <div className="hidden md:flex gap-4 w-1/3">
+      <div className="hidden md:flex gap-4 w-1/3 items-center justify-center">
         <Link href={"https://github.com/shimakaze09"}>
           <Image src="/github.png" alt="GitHub Link" width={24} height={24} />
         </Link>
