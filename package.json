@@ -16,7 +16,7 @@
     "@vercel/speed-insights": "^1.0.10",
     "framer-motion": "^11.0.22",
     "gsap": "^3.12.5",
-    "next": "^14.2.22",
+    "next": "^14.2.32",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "three": "^0.163.0"
